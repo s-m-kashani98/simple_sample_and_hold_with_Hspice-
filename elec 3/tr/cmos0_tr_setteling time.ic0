@@ -1,0 +1,23 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "01:13:14 06/30/2018 "
+* "netlist" "cmos0_tr_setteling time.sp "
+* "runtitle" "ac	simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a = 587.1854m       
++ b = 382.7937m       
++ c = 515.3843m       
++ d = 590.6323m       
++ f = 583.1508m       
++ hi =   1.0000        
++ lo =   0.            
++ vin+ =   0.            
++ vin- =  93.2811m       
++ vout =  93.2811m       
+***   END: Saved Operating Point ***                     

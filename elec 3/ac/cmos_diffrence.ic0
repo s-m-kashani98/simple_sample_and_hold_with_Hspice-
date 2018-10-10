@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "01:14:26 06/30/2018 "
+* "netlist" "cmos_diffrence.sp "
+* "runtitle" "ac	simulation"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a = 748.0293m       
++ b = 440.0920m       
++ c = 440.0892m       
++ d = 565.6460m       
++ f = 583.1529m       
++ hi =   1.0000        
++ k = 300.0000m       
++ lo =   0.            
++ vin+ = 300.0000m       
++ vin- = 300.0000m       
++ vout = 505.5933m       
+***   END: Saved Operating Point ***                     

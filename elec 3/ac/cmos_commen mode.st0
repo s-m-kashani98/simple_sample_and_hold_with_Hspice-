@@ -1,0 +1,57 @@
+***** HSPICE -- H-2013.03-SP2 64-BIT (Aug 26 2013) win64 ******
+ Input File: cmos_commen mode.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   mohammad             HOSTNAME: mohammad
+ lic: HOSTID: "b4ae2b3bad62 a615ed2eb0cc b4ae2b3bad61 b6ae2b3ba960 b6ae2b3bac60" PID:      5488
+ lic: Using FLEXlm license file:
+ lic: C:\hspice_lic\synopsys.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "b4ae2b3bad62 a615ed2eb0cc b4ae2b3bad61 b6ae2b3ba960 b6ae2b3bac6
+ lic:
+ init: begin read circuit files,  cpu clock=  1.51E-01
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\AD\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\TI\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\PCI\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\FET\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\DIO\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\BJT\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option acout =     0.00
+ init: end read circuit files,  cpu clock=  1.66E-01 peak memory=        41 mb
+ init: begin check errors,  cpu clock=  1.66E-01
+ init: end check errors,  cpu clock=  1.86E-01 peak memory=        42 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.86E-01
+       establish matrix -- done,  cpu clock=  1.86E-01 peak memory=        42 mb
+       re-order matrix -- done,  cpu clock=  1.87E-01 peak memory=        42 mb
+ init: end setup matrix,  cpu clock=  1.87E-01 peak memory=        42 mb
+ dcop: begin dcop,  cpu clock=  1.87E-01
+ dcop: end dcop,  cpu clock=  1.98E-01 peak memory=        42 mb  tot_iter=      10
+ output: cmos_commen mode.ma0
+ sweep: ac ac0    begin, #sweeps=4851 cpu clock=  1.99E-01
+ ac: frequency=    1.00E+01
+ ac: frequency=    9.33E+01
+ ac: frequency=    8.71E+02
+ ac: frequency=    8.13E+03
+ ac: frequency=    7.59E+04
+ ac: frequency=    7.08E+05
+ ac: frequency=    6.61E+06
+ ac: frequency=    6.17E+07
+ ac: frequency=    5.75E+08
+ ac: frequency=    5.37E+09
+ ac: frequency=    5.01E+10
+ sweep: ac ac0    end,  cpu clock=  9.86E-01 peak memory=        42 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

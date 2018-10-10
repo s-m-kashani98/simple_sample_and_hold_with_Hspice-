@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE 'ac	simulation'
+ gain             unity_gain       phase_margin     temper            
+ alter#            
+  -25.9730           failed           failed          25.0000         
+ 1                 
